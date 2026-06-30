@@ -1,0 +1,41 @@
+{
+  "name": "training-reco-mvp",
+  "version": "1.0.0",
+  "description": "MVP backend for manual training planning and recommendations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trabuch21/reactUdemy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trabuch21/reactUdemy/issues"
+  },
+  "homepage": "https://github.com/trabuch21/reactUdemy#readme",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-cron": "^4.5.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.1",
+    "prisma": "^7.8.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
